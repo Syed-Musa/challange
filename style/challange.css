@@ -26,3 +26,30 @@ body {
 .header-container .para {
     width: 300px;
 }
+
+.main-container {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+
+.image-box .photo {
+    width: 200px;
+    margin-bottom: 70px;
+}
+
+.image-box p {
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.main-boxes .image-box {
+    width: 150px;
+}
+
+.main-sec {
+    margin-top: 60px;
+}
