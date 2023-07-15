@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    margin: 50px;
+    padding: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-container h3 {
+    font-weight: 700;
+}
+
+.header-container h5 {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.header-container .para {
+    width: 300px;
+}
